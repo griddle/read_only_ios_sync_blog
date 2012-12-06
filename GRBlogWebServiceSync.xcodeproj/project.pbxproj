@@ -26,8 +26,8 @@
 		AC3E7C57166FF00200568450 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C4C166FF00200568450 /* AFURLConnectionOperation.m */; };
 		AC3E7C58166FF00200568450 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C4E166FF00200568450 /* AFXMLRequestOperation.m */; };
 		AC3E7C59166FF00200568450 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C50166FF00200568450 /* UIImageView+AFNetworking.m */; };
-		AC3E7C5C166FF4E100568450 /* GRAbstractWebServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */; };
 		AC3E7C5F1671145F00568450 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C5E1671145F00568450 /* Person.m */; };
+		AC941AB016715D7F00B5875C /* GRAbstractWebServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB61AE716715BFE00FDBB46 /* GRAbstractWebServiceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,10 +65,10 @@
 		AC3E7C4E166FF00200568450 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		AC3E7C4F166FF00200568450 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		AC3E7C50166FF00200568450 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		AC3E7C5A166FF4E100568450 /* GRAbstractWebServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRAbstractWebServiceModel.h; path = AFNetworking/GRAbstractWebServiceModel.h; sourceTree = "<group>"; };
-		AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRAbstractWebServiceModel.m; path = AFNetworking/GRAbstractWebServiceModel.m; sourceTree = "<group>"; };
 		AC3E7C5D1671145F00568450 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AC3E7C5E1671145F00568450 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		ACB61AE616715BFE00FDBB46 /* GRAbstractWebServiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAbstractWebServiceModel.h; sourceTree = "<group>"; };
+		ACB61AE716715BFE00FDBB46 /* GRAbstractWebServiceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAbstractWebServiceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				AC3E7C3D166FF00200568450 /* AFNetworking */,
-				AC3E7C5A166FF4E100568450 /* GRAbstractWebServiceModel.h */,
-				AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */,
 				AC3E7C5D1671145F00568450 /* Person.h */,
 				AC3E7C5E1671145F00568450 /* Person.m */,
+				ACB61AE616715BFE00FDBB46 /* GRAbstractWebServiceModel.h */,
+				ACB61AE716715BFE00FDBB46 /* GRAbstractWebServiceModel.m */,
 				AC3E7BD9166FDAC200568450 /* AppDelegate.h */,
 				AC3E7BDA166FDAC200568450 /* AppDelegate.m */,
 				AC3E7BF3166FDCEA00568450 /* GarretViewController.h */,
@@ -234,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC941AB016715D7F00B5875C /* GRAbstractWebServiceModel.m in Sources */,
 				AC3E7BD7166FDAC200568450 /* main.m in Sources */,
 				AC3E7BDB166FDAC200568450 /* AppDelegate.m in Sources */,
 				AC3E7BF5166FDCEA00568450 /* GarretViewController.m in Sources */,
@@ -246,7 +247,6 @@
 				AC3E7C57166FF00200568450 /* AFURLConnectionOperation.m in Sources */,
 				AC3E7C58166FF00200568450 /* AFXMLRequestOperation.m in Sources */,
 				AC3E7C59166FF00200568450 /* UIImageView+AFNetworking.m in Sources */,
-				AC3E7C5C166FF4E100568450 /* GRAbstractWebServiceModel.m in Sources */,
 				AC3E7C5F1671145F00568450 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +356,7 @@
 				AC3E7BF2166FDAC200568450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
