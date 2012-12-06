@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3E7BCB166FDAC200568450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3E7BCA166FDAC200568450 /* UIKit.framework */; };
+		AC3E7BCD166FDAC200568450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3E7BCC166FDAC200568450 /* Foundation.framework */; };
+		AC3E7BCF166FDAC200568450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3E7BCE166FDAC200568450 /* CoreGraphics.framework */; };
+		AC3E7BD5166FDAC200568450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC3E7BD3166FDAC200568450 /* InfoPlist.strings */; };
+		AC3E7BD7166FDAC200568450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7BD6166FDAC200568450 /* main.m */; };
+		AC3E7BDB166FDAC200568450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7BDA166FDAC200568450 /* AppDelegate.m */; };
+		AC3E7BDD166FDAC200568450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3E7BDC166FDAC200568450 /* Default.png */; };
+		AC3E7BDF166FDAC200568450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3E7BDE166FDAC200568450 /* Default@2x.png */; };
+		AC3E7BE1166FDAC200568450 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC3E7BE0166FDAC200568450 /* Default-568h@2x.png */; };
+		AC3E7BF5166FDCEA00568450 /* GarretViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7BF4166FDCEA00568450 /* GarretViewController.m */; };
+		AC3E7C51166FF00200568450 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C3F166FF00200568450 /* AFHTTPClient.m */; };
+		AC3E7C52166FF00200568450 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C41166FF00200568450 /* AFHTTPRequestOperation.m */; };
+		AC3E7C53166FF00200568450 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C43166FF00200568450 /* AFImageRequestOperation.m */; };
+		AC3E7C54166FF00200568450 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C45166FF00200568450 /* AFJSONRequestOperation.m */; };
+		AC3E7C55166FF00200568450 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C47166FF00200568450 /* AFNetworkActivityIndicatorManager.m */; };
+		AC3E7C56166FF00200568450 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C4A166FF00200568450 /* AFPropertyListRequestOperation.m */; };
+		AC3E7C57166FF00200568450 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C4C166FF00200568450 /* AFURLConnectionOperation.m */; };
+		AC3E7C58166FF00200568450 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C4E166FF00200568450 /* AFXMLRequestOperation.m */; };
+		AC3E7C59166FF00200568450 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C50166FF00200568450 /* UIImageView+AFNetworking.m */; };
+		AC3E7C5C166FF4E100568450 /* GRAbstractWebServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */; };
+		AC3E7C5F1671145F00568450 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E7C5E1671145F00568450 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3E7BC6166FDAC200568450 /* GRBlogWebServiceSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRBlogWebServiceSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3E7BCA166FDAC200568450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC3E7BCC166FDAC200568450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC3E7BCE166FDAC200568450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC3E7BD2166FDAC200568450 /* GRBlogWebServiceSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GRBlogWebServiceSync-Info.plist"; sourceTree = "<group>"; };
+		AC3E7BD4166FDAC200568450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC3E7BD6166FDAC200568450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC3E7BD8166FDAC200568450 /* GRBlogWebServiceSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GRBlogWebServiceSync-Prefix.pch"; sourceTree = "<group>"; };
+		AC3E7BD9166FDAC200568450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC3E7BDA166FDAC200568450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC3E7BDC166FDAC200568450 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC3E7BDE166FDAC200568450 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC3E7BE0166FDAC200568450 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC3E7BF3166FDCEA00568450 /* GarretViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarretViewController.h; sourceTree = "<group>"; };
+		AC3E7BF4166FDCEA00568450 /* GarretViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarretViewController.m; sourceTree = "<group>"; };
+		AC3E7C3E166FF00200568450 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		AC3E7C3F166FF00200568450 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		AC3E7C40166FF00200568450 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AC3E7C41166FF00200568450 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AC3E7C42166FF00200568450 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		AC3E7C43166FF00200568450 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		AC3E7C44166FF00200568450 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		AC3E7C45166FF00200568450 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		AC3E7C46166FF00200568450 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AC3E7C47166FF00200568450 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AC3E7C48166FF00200568450 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AC3E7C49166FF00200568450 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		AC3E7C4A166FF00200568450 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		AC3E7C4B166FF00200568450 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AC3E7C4C166FF00200568450 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AC3E7C4D166FF00200568450 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		AC3E7C4E166FF00200568450 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		AC3E7C4F166FF00200568450 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC3E7C50166FF00200568450 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC3E7C5A166FF4E100568450 /* GRAbstractWebServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRAbstractWebServiceModel.h; path = AFNetworking/GRAbstractWebServiceModel.h; sourceTree = "<group>"; };
+		AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRAbstractWebServiceModel.m; path = AFNetworking/GRAbstractWebServiceModel.m; sourceTree = "<group>"; };
+		AC3E7C5D1671145F00568450 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AC3E7C5E1671145F00568450 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3E7BC3166FDAC200568450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E7BCB166FDAC200568450 /* UIKit.framework in Frameworks */,
+				AC3E7BCD166FDAC200568450 /* Foundation.framework in Frameworks */,
+				AC3E7BCF166FDAC200568450 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3E7BBB166FDAC200568450 = {
+			isa = PBXGroup;
+			children = (
+				AC3E7BD0166FDAC200568450 /* GRBlogWebServiceSync */,
+				AC3E7BC9166FDAC200568450 /* Frameworks */,
+				AC3E7BC7166FDAC200568450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3E7BC7166FDAC200568450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E7BC6166FDAC200568450 /* GRBlogWebServiceSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3E7BC9166FDAC200568450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E7BCA166FDAC200568450 /* UIKit.framework */,
+				AC3E7BCC166FDAC200568450 /* Foundation.framework */,
+				AC3E7BCE166FDAC200568450 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3E7BD0166FDAC200568450 /* GRBlogWebServiceSync */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E7C3D166FF00200568450 /* AFNetworking */,
+				AC3E7C5A166FF4E100568450 /* GRAbstractWebServiceModel.h */,
+				AC3E7C5B166FF4E100568450 /* GRAbstractWebServiceModel.m */,
+				AC3E7C5D1671145F00568450 /* Person.h */,
+				AC3E7C5E1671145F00568450 /* Person.m */,
+				AC3E7BD9166FDAC200568450 /* AppDelegate.h */,
+				AC3E7BDA166FDAC200568450 /* AppDelegate.m */,
+				AC3E7BF3166FDCEA00568450 /* GarretViewController.h */,
+				AC3E7BF4166FDCEA00568450 /* GarretViewController.m */,
+				AC3E7BD1166FDAC200568450 /* Supporting Files */,
+			);
+			path = GRBlogWebServiceSync;
+			sourceTree = "<group>";
+		};
+		AC3E7BD1166FDAC200568450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E7BD2166FDAC200568450 /* GRBlogWebServiceSync-Info.plist */,
+				AC3E7BD3166FDAC200568450 /* InfoPlist.strings */,
+				AC3E7BD6166FDAC200568450 /* main.m */,
+				AC3E7BD8166FDAC200568450 /* GRBlogWebServiceSync-Prefix.pch */,
+				AC3E7BDC166FDAC200568450 /* Default.png */,
+				AC3E7BDE166FDAC200568450 /* Default@2x.png */,
+				AC3E7BE0166FDAC200568450 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC3E7C3D166FF00200568450 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E7C3E166FF00200568450 /* AFHTTPClient.h */,
+				AC3E7C3F166FF00200568450 /* AFHTTPClient.m */,
+				AC3E7C40166FF00200568450 /* AFHTTPRequestOperation.h */,
+				AC3E7C41166FF00200568450 /* AFHTTPRequestOperation.m */,
+				AC3E7C42166FF00200568450 /* AFImageRequestOperation.h */,
+				AC3E7C43166FF00200568450 /* AFImageRequestOperation.m */,
+				AC3E7C44166FF00200568450 /* AFJSONRequestOperation.h */,
+				AC3E7C45166FF00200568450 /* AFJSONRequestOperation.m */,
+				AC3E7C46166FF00200568450 /* AFNetworkActivityIndicatorManager.h */,
+				AC3E7C47166FF00200568450 /* AFNetworkActivityIndicatorManager.m */,
+				AC3E7C48166FF00200568450 /* AFNetworking.h */,
+				AC3E7C49166FF00200568450 /* AFPropertyListRequestOperation.h */,
+				AC3E7C4A166FF00200568450 /* AFPropertyListRequestOperation.m */,
+				AC3E7C4B166FF00200568450 /* AFURLConnectionOperation.h */,
+				AC3E7C4C166FF00200568450 /* AFURLConnectionOperation.m */,
+				AC3E7C4D166FF00200568450 /* AFXMLRequestOperation.h */,
+				AC3E7C4E166FF00200568450 /* AFXMLRequestOperation.m */,
+				AC3E7C4F166FF00200568450 /* UIImageView+AFNetworking.h */,
+				AC3E7C50166FF00200568450 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3E7BC5166FDAC200568450 /* GRBlogWebServiceSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3E7BF0166FDAC200568450 /* Build configuration list for PBXNativeTarget "GRBlogWebServiceSync" */;
+			buildPhases = (
+				AC3E7BC2166FDAC200568450 /* Sources */,
+				AC3E7BC3166FDAC200568450 /* Frameworks */,
+				AC3E7BC4166FDAC200568450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRBlogWebServiceSync;
+			productName = GRBlogWebServiceSync;
+			productReference = AC3E7BC6166FDAC200568450 /* GRBlogWebServiceSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3E7BBD166FDAC200568450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Garret;
+			};
+			buildConfigurationList = AC3E7BC0166FDAC200568450 /* Build configuration list for PBXProject "GRBlogWebServiceSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC3E7BBB166FDAC200568450;
+			productRefGroup = AC3E7BC7166FDAC200568450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3E7BC5166FDAC200568450 /* GRBlogWebServiceSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3E7BC4166FDAC200568450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E7BD5166FDAC200568450 /* InfoPlist.strings in Resources */,
+				AC3E7BDD166FDAC200568450 /* Default.png in Resources */,
+				AC3E7BDF166FDAC200568450 /* Default@2x.png in Resources */,
+				AC3E7BE1166FDAC200568450 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3E7BC2166FDAC200568450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3E7BD7166FDAC200568450 /* main.m in Sources */,
+				AC3E7BDB166FDAC200568450 /* AppDelegate.m in Sources */,
+				AC3E7BF5166FDCEA00568450 /* GarretViewController.m in Sources */,
+				AC3E7C51166FF00200568450 /* AFHTTPClient.m in Sources */,
+				AC3E7C52166FF00200568450 /* AFHTTPRequestOperation.m in Sources */,
+				AC3E7C53166FF00200568450 /* AFImageRequestOperation.m in Sources */,
+				AC3E7C54166FF00200568450 /* AFJSONRequestOperation.m in Sources */,
+				AC3E7C55166FF00200568450 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				AC3E7C56166FF00200568450 /* AFPropertyListRequestOperation.m in Sources */,
+				AC3E7C57166FF00200568450 /* AFURLConnectionOperation.m in Sources */,
+				AC3E7C58166FF00200568450 /* AFXMLRequestOperation.m in Sources */,
+				AC3E7C59166FF00200568450 /* UIImageView+AFNetworking.m in Sources */,
+				AC3E7C5C166FF4E100568450 /* GRAbstractWebServiceModel.m in Sources */,
+				AC3E7C5F1671145F00568450 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC3E7BD3166FDAC200568450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3E7BD4166FDAC200568450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3E7BEE166FDAC200568450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC3E7BEF166FDAC200568450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3E7BF1166FDAC200568450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRBlogWebServiceSync/GRBlogWebServiceSync-Prefix.pch";
+				INFOPLIST_FILE = "GRBlogWebServiceSync/GRBlogWebServiceSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC3E7BF2166FDAC200568450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GRBlogWebServiceSync/GRBlogWebServiceSync-Prefix.pch";
+				INFOPLIST_FILE = "GRBlogWebServiceSync/GRBlogWebServiceSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3E7BC0166FDAC200568450 /* Build configuration list for PBXProject "GRBlogWebServiceSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E7BEE166FDAC200568450 /* Debug */,
+				AC3E7BEF166FDAC200568450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3E7BF0166FDAC200568450 /* Build configuration list for PBXNativeTarget "GRBlogWebServiceSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E7BF1166FDAC200568450 /* Debug */,
+				AC3E7BF2166FDAC200568450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3E7BBD166FDAC200568450 /* Project object */;
+}
